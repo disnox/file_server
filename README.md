@@ -34,7 +34,7 @@
 + 服务器与客户端的通信采用自定义报文数据进行交互，指令格式如下：
 
 ```C
-msg[100] = "AT+LoginUser:disnox";	// 数据格式
+char msg[100] = "AT+LoginUser:disnox";	// 数据格式
 ```
 
 | 报文指令         | 数据头  | 消息类型                | 分隔符 | 数据消息          |
@@ -117,6 +117,6 @@ msg[100] = "AT+LoginUser:disnox";	// 数据格式
 │       ├── thread.c		# 线程函数
 │       └── user_info.c		# 信息管理内核链表
 ├── Makefile				# Makefile工程配置文件
-├── README.md
-└── 文件服务器.xmind
+├── README.md				# README
+└── 文件服务器.xmind			 # 文件服务器思维导图
 ```

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "serve.h": "c",
+        "thread.h": "c",
+        "errno.h": "c"
+    }
+}
